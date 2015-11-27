@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>Tincr: The Tincr Design Suite</title>
+<title>Tincr: D:/Users/Brad/Documents/Work/workspace/tincr/tincr/io/device Directory Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -39,7 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -60,7 +60,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,26 +74,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_ac8ce70882f6ef1ae28557630b61b3e5.html">tincr</a></li><li class="navelem"><a class="el" href="dir_21c450227e0ef266eb721ab1ccb54507.html">io</a></li><li class="navelem"><a class="el" href="dir_9d49cf159a7341e481454fbc11c275a7.html">device</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">The Tincr Design Suite </div>  </div>
+<div class="title">device Directory Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="intro_sec"></a>
-Introduction</h1>
-<p>The Tincr Design Suite augments Vivado's native Tcl interface. Tincr is divided into two libraries, called TincrCAD and TincrIO. Each library consists of a number packages, and each package encapsulates a set of related functionality. For instance, the <code>design</code> package in TincrCAD contains all commands related the the querying and manipulating of design objects in Vivado. These packages are further divided into files that each represent a specific class of object in Vivado's Tcl interpreter. Examples include <code><a class="el" href="cells_8tcl.html" title="Query and modify cell objects in Vivado. ">cells.tcl</a></code> and <code>bels.tcl</code>. These files contain a number of procs for operating on these objects, giving the user a level of abstraction similar to an Object Oriented Programming language. This unique organization can be observed in the <a href="files.html">Files</a> section. All Tcl procedures are members of the <code><a class="el" href="namespacetincr.html" title="All of the Tcl procs provided in the design package are members of the tincr namespace. ">tincr</a>::</code> namespace.</p>
-<h1><a class="anchor" id="install_sec"></a>
-Installation</h1>
-<ol>
-<li>
-<b>Set up the environment.</b> Place the source files in the desired directory. Set the environment variable <code>TINCR_PATH</code> to that directory. </li>
-<li>
-<b>Set up the package index.</b> Place the file <code>install/pkgIndex.tcl</code> in the appropriate folder for your Vivado installation (e.g. <code>&lt;install path&gt;/Vivado/&lt;version&gt;/tps/tcl/tcl8.5</code>). </li>
-<li>
-<b>Configure Vivado.</b> If desired, Vivado can be set to automatically load all Tincr Tcl packages upon start up. This is done by adding the following line to Vivado's <code>init.tcl</code> file: <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package</span> require tincr 0.0</div>
-</div><!-- fragment --> Individual libraries or packages can be loaded by replacing <code>tincr</code> with the desired library or package name (e.g. <code>tincr.cad</code> or <code>tincr.cad.design</code>). Packages can be loaded using the same command when Vivado is running. </li>
-</ol>
-</div></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:io_2device_2pkg_index_8tcl"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>pkgIndex.tcl</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:xdlrc_8tcl"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>xdlrc.tcl</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated on Mon Dec 8 2014 02:34:26 for Tincr by &#160;<a href="http://www.doxygen.org/index.html">
