@@ -21,7 +21,7 @@ namespace eval ::tincr:: {
 # @param filename The path and filename where the Tincr checkpoint is to be written.
 proc ::tincr::write_tcp {filename} {
     set filename [::tincr::add_extension ".tcp" $filename]
-    
+     
     file mkdir $filename
     
     # TODO Planned feature: Remove route-throughs.
